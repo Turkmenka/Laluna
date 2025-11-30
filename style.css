@@ -101,7 +101,7 @@
 
 .hero_section .hero_text p{
     font-size: 15px;
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .hero_section .hero_text .hero_search{
@@ -314,11 +314,38 @@
 /* quote section end */
 
 /* media */
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
     .container {
         padding: 0 150px;
     }
 
+    /* nav section */
+    .nav_section .nav_menu ul {
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    /* quote section */
+    .quote_section {
+        padding: 0 30px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .quote_section .quote_text .quote_text2 i {
+        position: absolute;
+        right: 150px;
+        top: 310px;
+        font-size: 70px;
+    }
+
+}
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    /* nav section */
     .nav_section .nav_menu ul {
         gap: 20px;
         font-size: 18px;
@@ -328,104 +355,28 @@
         display: none;
     }
 
-    .hero_section {
-        gap: 100px;
-    }
-
-    .hero_section .hero_img img {
-        width: 400px;
-    }
-
-    .hero_section .hero_text h1{
-        font-size: 3.5rem;
-    }
-
-    .hero_section .hero_text .hero_search .hero_enter {
-        display: none;
-    }
-    
-    .hero_section .hero_text .hero_search .hero_enter button {
-        width: 60px;
-        height: 40px;
-    }
-
-    .about_section {
-        padding: 100px 100px;
-    }
-
-    .quote_section {
-        padding: 0 150px;
-        flex-direction: column;
-        text-align: center;
-        gap: 50px;
-    }
-
-    .quote_section .quote_text .quote_text2 {
-        width: 100%;
-    }
-}
-@media (max-width: 768px) {
-
-    .container {
-        padding: 0 50px;
-    }
-
-    /* NAVBAR */
-    .nav_section {
-        flex-direction: column;
-        height: auto;
-        gap: 20px;
-    }
-
-    .nav_section .nav_menu ul {
-        gap: 20px;
-        flex-wrap: wrap;
-        font-size: 16px;
-    }
-
-    .nav_section .nav_sign {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    /* HERO */
+    /* hero section */
     .hero_section {
         flex-direction: column;
         height: auto;
+        width: auto;
         padding: 60px 0;
         text-align: center;
     }
-
-    .hero_section .hero_text h1 {
-        font-size: 55px;
-    }
-
-    .hero_section .hero_text .hero_search img {
-        display: none;
-    }
-
-    .hero_section .hero_text .hero_search {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero_section .hero_text .hero_search .hero_enter input {
-        position: static;
-        width: 100%;
-    }
-
-    .hero_section .hero_text .hero_search .hero_enter button {
-        position: static;
-        margin-top: 10px;
-        width: 100%;
+    
+    .hero_section .hero_text h1{
+        font-size: 80px !important;
     }
 
     .hero_section .hero_img img {
-        width: 300px;
-        margin-top: 40px;
+        width: 400px !important;
     }
 
-    /* MEDALS */
+    .hero_section .hero_text .hero_search{
+        display: none;
+    }
+
+    /* medals section */
     .medals_section {
         flex-direction: column;
         height: auto;
@@ -434,10 +385,19 @@
 
     .medals_section .medal {
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 40px;
     }
 
-    /* ABOUT */
+    .medals_section .medal{
+        padding-bottom: 50px;
+    }
+
+    .medals_section .medal_text{
+        text-align: center;
+        width: 70%;
+    }
+
+    /* about section */
     .about_section {
         padding: 50px 20px;
         height: auto;
@@ -452,15 +412,16 @@
         gap: 40px;
     }
 
-    /* QUOTE */
+    /* quote section */
     .quote_section {
-        padding: 0 20px;
+        padding: 0 30px;
         flex-direction: column;
         text-align: center;
+        position: relative;
     }
 
     .quote_section .quote_img img {
-        width: 100%;
+        width: 90%;
     }
 
     .quote_section .quote_text h1 {
@@ -470,13 +431,14 @@
     .quote_section .quote_text .quote_text2 {
         width: 100%;
         height: auto;
-        padding: 20px;
+        padding: 30px;
     }
 
     .quote_section .quote_text .quote_text2 i {
-        position: static;
+        position: absolute;
+        right: 150px;
+        top: 1110px;
         font-size: 50px;
-        margin-bottom: 10px;
     }
 
     .quote_logos {
@@ -488,21 +450,50 @@
         width: 120px;
     }
 }
-@media (max-width: 480px) {
 
-    .hero_section .hero_text h1 {
-        font-size: 40px;
+@media (max-width: 480px) {
+    .container {
+        padding: 0 30px;
+    }
+    /* nav section */
+    .nav_section {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
     }
 
+    .nav_section .nav_menu{
+        display: none;
+    }
+
+    .nav_section .nav_logo img{
+        padding-top: 20px;
+    }
+
+     /* hero section */
+    .hero_section .hero_text h1 {
+        font-size: 50px !important;
+    }
+
+    /* medals section */
+    .medals_section .medal .m3{
+        margin-left: 80px;
+    }
+
+    .medals_section .medal_text{
+        margin-right: 80px;
+    }
+
+    /* about section */
     .about_section h2 {
         font-size: 32px;
     }
 
-    .quote_section .quote_text h1 {
-        font-size: 30px;
-    }
-
-    .nav_section .nav_logo img {
-        width: 150px;
+    /* quote section */
+    .quote_section .quote_text .quote_text2 i {
+        position: absolute;
+        right: 100px;
+        top: 910px;
+        font-size: 50px;
     }
 }
