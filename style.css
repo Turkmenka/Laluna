@@ -11,7 +11,7 @@
     margin: 0 auto;
     padding: 0 300px;
     background: #F8F3ED;
-    background: url("/img/bg.jpg") no-repeat;
+    background: url("img/bg.jpg") no-repeat;
     background-size: cover;
 }
 
