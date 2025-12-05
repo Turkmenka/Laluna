@@ -1,9 +1,10 @@
-🌸 Laluna – Elegant Author Website ✍️💫
+# 🌸 Laluna – Elegant Author Website ✍️💫
+**Laluna**
 
 I created an elegant, calm and professional atmosphere for the author's brand.
 This project has a special place in my portfolio. The website is fully responsive and compatible with various devices.
 
-✨ Main advantages of the site:
+## ✨ Main advantages of the site:
 
 🎯 Minimalist & Elegant design
 📱 Fully responsive structure
@@ -12,11 +13,11 @@ This project has a special place in my portfolio. The website is fully responsiv
 📚 Books page
 💬 Quote & Author section
 
-🌷 Goal
+## 🌷 Goal
 
 To present the creative world of the author with an elegant aesthetic.
 
-⚙️ Technologies used:
+## ⚙️ Technologies used:
 
 💻 HTML5
 🎨 CSS3 (Flex + Grid + Responsive)
