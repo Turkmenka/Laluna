@@ -1,8 +1,7 @@
 # 🌸 Laluna – Elegant Author Website ✍️💫
-**Laluna**
+**Laluna** I created an elegant, calm and professional atmosphere for the author's brand. This project has a special place in my portfolio. The website is fully responsive and compatible with various devices.!
+**Be Cool** is an easy and fun platform to learn new languages. Enhance your skills with useful tips, practical lessons, and cultural insights. Whether you’re a beginner or advanced learner, stay confident on your language journey with Be Cool!
 
-I created an elegant, calm and professional atmosphere for the author's brand.
-This project has a special place in my portfolio. The website is fully responsive and compatible with various devices.
 
 ## ✨ Main advantages of the site:
 
